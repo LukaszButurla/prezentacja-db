@@ -1,0 +1,100 @@
+body {
+    background-color: #04364A;
+}
+
+* {
+    box-sizing: border-box;
+}
+section {
+    background: #DAFFFB;
+    margin: 10px auto;
+    padding: 15px;
+    border: 3px inset;
+    margin-right: 13%;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+section p{
+font-size: 35px;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    border: 10px;
+    font-size: 17px;
+    background: #04364A;
+    width: 12%;
+    min-width: 200px;
+}
+
+main {
+    margin-top: 10px;
+    margin-left: 12%;
+    
+}
+
+ul li{
+    list-style-type: none;
+}
+.menu > li{
+    display: inline-block;
+    border: 3px inset ;
+    padding : 10px;
+    background-color:whitesmoke;
+    width: 100%;
+    margin-left: -30px;
+}
+
+
+.menu > li:hover{
+    .submenu {
+        display: block;
+        
+    }
+}
+
+.submenu {
+    display: none;
+    padding: 0;
+    position: absolute;
+    background: #64CCC5;
+    text-align: left;
+    width: 74%;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-left: -15px;
+    font-size: 14px;
+
+
+}
+.submenu > li {
+    border-bottom: 2px inset;
+    
+}
+.submenu > li a:visited,
+.submenu > li a:link,
+.submenu > li a{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: grey;
+}
+
+.submenu > li a:hover,.submenu > li a:active{
+    background: black;
+    color: white;
+}
+
+footer {
+    margin-left: 13%;
+}
+.footer {
+    background: #DAFFFB;
+    font-size: 40px;
+}
